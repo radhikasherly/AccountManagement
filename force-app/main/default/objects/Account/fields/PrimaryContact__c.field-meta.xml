@@ -3,7 +3,7 @@
     <fullName>PrimaryContact__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>This indicates the contact is primary contact for this account.</description>
-    <label>PrimaryContact</label>
+    <label>Primary Contact</label>
     <referenceTo>Account</referenceTo>
     <relationshipLabel>Accounts</relationshipLabel>
     <relationshipName>Accounts</relationshipName>
