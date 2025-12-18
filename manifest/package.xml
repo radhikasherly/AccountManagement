@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-     <types>
-        <members>Account_Management_Permissions</members>
-        <name>PermissionSet</name>
+    <types>
+    <members>Update_Primary_Contact</members>
+    <name>Flow</name>
     </types>
-    
-        <types>
-        <members>Account_Record_Page</members>
-        <name>FlexiPage</name>
-    </types>
-
     <version>65.0</version>
 </Package>
