@@ -118,6 +118,9 @@
         <label>Update Account Primary Contact</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Other_Primary_Contacts</targetReference>
+        </connector>
         <filterLogic>and</filterLogic>
         <filters>
             <field>Id</field>
@@ -139,16 +142,13 @@
         <label>Update Other Contacts</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <connector>
-            <targetReference>Update_Account_Primary_Contact</targetReference>
-        </connector>
         <inputReference>Contacts_To_Update</inputReference>
     </recordUpdates>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Get_Other_Primary_Contacts</targetReference>
+            <targetReference>Update_Account_Primary_Contact</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
